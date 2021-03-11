@@ -26,6 +26,11 @@ cube(`FlightsV`, {
   },
 
   dimensions: {
+     id: {
+      sql: `flight_id`,
+      type: `number`,
+      primaryKey: true
+    },
     departureAirport: {
       sql: `departure_airport`,
       type: `string`

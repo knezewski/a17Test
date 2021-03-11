@@ -31,8 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Sidebar = (props) => {
-  const { open, variant, onClose, className, ...rest } = props;
+const Sidebar = ({ open, variant, onClose, className, ...rest }) => {
 
   const classes = useStyles();
 
@@ -43,8 +42,8 @@ const Sidebar = (props) => {
       icon: <DashboardIcon />,
     },
     {
-      title: 'Orders',
-      href: '/orders',
+      title: 'Table',
+      href: '/table',
       icon: <AssignmentIcon />,
     },
   ];

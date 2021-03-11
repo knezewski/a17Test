@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@cubejs-client/core": "^0.26.45",
+    "@cubejs-client/core": "^0.26.53",
     "@cubejs-client/react": "^0.26.49",
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",

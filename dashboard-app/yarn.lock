@@ -1188,6 +1188,20 @@
     url-search-params-polyfill "^7.0.0"
     uuid "^3.4.0"
 
+"@cubejs-client/core@^0.26.53":
+  version "0.26.53"
+  resolved "https://registry.yarnpkg.com/@cubejs-client/core/-/core-0.26.53.tgz#636ab13061d867bf81dc56e01ebd9485766c1ba4"
+  integrity sha512-eGwWe+NIQwH9PajodNIchOR68ly2QYTzTS5k+31xjlzVeqmoY0kSPHzF9PF7+P8Z4C5VGG02+JBETiv95VzyQA==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    core-js "^3.6.5"
+    cross-fetch "^3.0.2"
+    moment "^2.22.2"
+    moment-range "^4.0.1"
+    ramda "^0.27.0"
+    url-search-params-polyfill "^7.0.0"
+    uuid "^3.4.0"
+
 "@cubejs-client/react@^0.26.49":
   version "0.26.49"
   resolved "https://registry.yarnpkg.com/@cubejs-client/react/-/react-0.26.49.tgz#5779df1935c4c1b2adb8eb19296b1dfc87c2d49f"

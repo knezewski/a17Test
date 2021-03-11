@@ -14,7 +14,7 @@ ReactDOM.render(
         <Switch>
           <Redirect exact from="/" to="/dashboard" />
           <Route key="index" exact path="/dashboard" component={ DashboardPage } />
-          <Route key="table" path="/orders" component={ DataTablePage } />
+          <Route key="table" path="/table" component={ DataTablePage } />
           <Route key="table" path="/passenger/:id" component={ PassengerPage } />
           <Redirect to="/dashboard" />
         </Switch>

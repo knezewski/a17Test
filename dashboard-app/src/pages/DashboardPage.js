@@ -34,26 +34,6 @@ const DashboardItems = [
       chartType: 'pie',
     },
   },
-  {
-    id: 2,
-    name: 'New Chart',
-    vizState: {
-      query: {
-        measures: ['Bookings.count'],
-        timeDimensions: [
-          {
-            dimension: 'Bookings.bookDate',
-          },
-        ],
-        order: {
-          'Bookings.count': 'desc',
-        },
-        dimensions: ['Bookings.bookDate'],
-        limit: 500,
-      },
-      chartType: 'table',
-    },
-  },
 ];
 
 const DashboardPage = () => {
