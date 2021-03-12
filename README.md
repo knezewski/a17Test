@@ -4,7 +4,7 @@
 
 if you already have Cube.js Backend up and running you can skip this step.
 
-Let's start by setting up a database with some sample data. We'll use PostgresQL and our example e-commerce dataset for this tutorial. You can download and import it by running the following commands.
+Let's start by setting up a database with some sample data. We'll use PostgresQL and our example  dataset for this tutorial. You can download and import it by running the following commands.
 
 ```
 download file demo-small-en.zip from  https://postgrespro.com/education/demodb
